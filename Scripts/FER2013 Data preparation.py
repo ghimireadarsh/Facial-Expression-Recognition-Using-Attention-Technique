@@ -41,8 +41,6 @@ for i, d in enumerate(dataset):
         os.system('mkdir {}'.format(label_path))
     img.save(img_path)
     print('Write {}'.format(img_path))
-    if i == 100:
-        break
 
 
 
